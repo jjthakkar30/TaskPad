@@ -10,7 +10,7 @@ namespace TaskPad
 	public static class FileHandler
 	{
 		//Main DB file path
-		private static readonly string fileDBPath = @"C:\Users\JinilThakkar\OneDrive - Kongsberg Digital AS\Desktop\Training\00 - Labs\00 - Module Projects\C# Console App\TaskPad\TaskPad\bin\Debug\net6.0\TaskList.json";
+		private static readonly string fileDBPath = @"C:\Users\JinilThakkar\OneDrive - Kongsberg Digital AS\Desktop\Training\00 - Labs\00 - Module Projects\C# Console App\TaskPad\TaskPad\TaskList.json";
 
 		public static void SaveListToFile(SortedList<int, TaskItem> taskList)
 		{
